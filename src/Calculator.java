@@ -6,10 +6,14 @@ public class Calculator implements ActionListener {
 
     JFrame frame;
     JTextField textfield;
-    JButton[] numberButtons = new JButton[10];                      // uma calculadora possui dez números, então criaremos uma array contendo dez botões (números de 0 a 9)
-    JButton[] functionButtons = new JButton[8];                     // uma calculadora possui funções (somar, diminuir, etc...) então criamos uma array aqui também
-    JButton addButton, subButton, mulButton, divButton;             // funções da calculadora
-    JButton decButton, equButton, delButton, clrButton, negButton;  // funções da calculadora decimal, igual, deletar e limpar
+    // uma calculadora possui dez números, então criaremos uma array contendo dez botões (números de 0 a 9)
+    JButton[] numberButtons = new JButton[10];             
+    // uma calculadora possui funções (somar, diminuir, etc...) então criamos uma array aqui também         
+    JButton[] functionButtons = new JButton[8];    
+    // funções da calculadora                 
+    JButton addButton, subButton, mulButton, divButton;             
+    // funções da calculadora decimal, igual, deletar e limpar
+    JButton decButton, equButton, delButton, clrButton;
     JPanel panel;
 
     Font myFont = new Font("Ink Free",Font.BOLD,30);
@@ -28,7 +32,8 @@ public class Calculator implements ActionListener {
         textfield = new JTextField();
         textfield.setBounds(50, 25, 300, 50);
         textfield.setFont(myFont);
-        textfield.setEditable(false);                               // por padrão podemos inserir valores ao campo, então usamos setEditable para falso 
+        // por padrão podemos inserir valores ao campo, então usamos setEditable para falso 
+        textfield.setEditable(false);       
 
         // Botões relacionados as funções da calculadora
         addButton = new JButton("+");
@@ -97,9 +102,10 @@ public class Calculator implements ActionListener {
         frame.add(panel);
         frame.add(delButton);
         frame.add(clrButton);
-
-        frame.add(textfield);                                         // adicionando o campo de texto
-        frame.setVisible(true);                                     // responsável por mostrar a tela ao clicar em Run
+        // adicionando o campo de texto
+        frame.add(textfield);                    
+        // responsável por mostrar a tela ao clicar em Run                     
+        frame.setVisible(true);                                     
     };
     public static void main(String[] args) {
         @SuppressWarnings("unused")
