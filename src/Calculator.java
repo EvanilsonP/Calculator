@@ -13,6 +13,9 @@ public class Calculator implements ActionListener {
 
     Font myFont = new Font("ink Free", Font.BOLD, 30);
 
+    double numb1 = 0, numb2 = 0;
+    char operator;
+
     Calculator() {
         Calculator calc = new Calculator();
     }
