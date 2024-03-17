@@ -14,4 +14,6 @@ Ele permite aos usuários inserir e editar texto diretamente na interface do usu
 
 4 - JPanel: Representa um container que pode conter outros componentes de interface gráfica do usuário (GUI).
 
-Alem das classes mencionadas, foi utilizado o ActionListener que é uma interface em Java usada para lidar com eventos de ação gerados por componentes de interface do usuário, como botões, menus e campos de texto.
+Além das classes mencionadas, foi utilizado o ActionListener que é uma interface em Java usada para lidar com eventos de ação gerados por componentes de interface do usuário, como botões, menus e campos de texto.   
+
+Obs: Nesse projeto aprendi sobre Jframe, Jtextfield, Jbutton e JPanel. Então criei uma pasta dedicada a essas classes e fiz alguns exercícios para entender melhor como essa classe funciona.
